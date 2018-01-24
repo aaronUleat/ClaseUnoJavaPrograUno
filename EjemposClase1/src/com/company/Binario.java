@@ -18,9 +18,8 @@ public class Binario {
         {
             numIng = numIng / 2;
             res = numIng % 2;
-            //System.out.println( numIng );
             String numInt =  Integer.toString( res  );
-            strBin = strBin + numInt;
+            strBin +=  numInt;
         }
         System.out.println("Binario:" + strBin);
 
