@@ -16,7 +16,7 @@ public class Binario {
 
         while(numIng > 1)
         {
-            numIng = numIng / 2;
+            //numIng = numIng / 2;
             res = numIng % 2;
             String numInt =  Integer.toString( res  );
             strBin +=  numInt;
