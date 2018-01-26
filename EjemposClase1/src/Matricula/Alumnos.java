@@ -1,4 +1,4 @@
-package Tienda;
+package Matricula;
 
 public class Alumnos {
     public int id = 0;

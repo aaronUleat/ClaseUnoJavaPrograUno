@@ -1,4 +1,4 @@
-package Tienda;
+package Matricula;
 
 public class Matricula {
 
