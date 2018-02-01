@@ -14,9 +14,7 @@ public class Matricula {
         alumno1.Agregar(1, "carlos", "@", "123" );
 
 
-        alumno2.nombre = "Roberto";
-        alumno3.nombre = "Martha";
-
+        Alumnos alumno4 = new Alumnos();
 
     }
 }
