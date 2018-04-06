@@ -7,9 +7,8 @@ public class cBases {
         String binary="";
         while(valor>0)
         {
-
-            binary=( valor % 2)+binary;
-            valor = valor / 2;
+            binary  = ( valor % 2)+binary;
+            valor   = valor / 2;
 
         }
         return binary;
@@ -20,7 +19,7 @@ public class cBases {
         String result = "";
         while(valor> 0)
         {
-            result = valor%8+result;
+            result = (valor % 8) + result;
             valor /= 8;
         }
         return result;
